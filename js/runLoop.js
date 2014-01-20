@@ -36,28 +36,40 @@ function run (all, timestamp)
 /* ****************** States Machine ****************** */
 /* **************************************************** */
 
-	switch (all.iActiveScene)
+	switch (all.activeScene)
 	{
-		case all.MENU_SCENE:
-
+		case "menu":
+			menu_scene(all);
 		break;
-		case all.OPTIONS_SCENE:
-			
+		case "amazeme":
+			amazeme_scene(all);
 		break;
-		case all.CONTROLS_SCENE:
-			
+		case "achiev":
+			achiev_scene(all);
 		break;
-		case all.HIGHSCORES_SCENE:
-			
+		case "credits":
+			credits_scene(all);
 		break;
-		case all.CREDITS_SCENE:
-			
+		case "exit":
+			tizen.application.getCurrentApplication().exit();
 		break;
-		case all.PLAY_SCENE:
-
+		case "meuh":
+			all.meuh_scene.update(all);
 		break;
-		case all.PAUSE_SCENE:
-
+		case "fartsim":
+			all.fartsim_scene.update(all);
+		break;
+		case "clown":
+			all.clown_scene.update(all);
+		break;
+		case "beer":
+			all.beer_scene.update(all);
+		break;
+		case "ninja":
+			all.ninja_scene.update(all);
+		break;
+		case "light":
+			all.light_scene.update(all);
 		break;
 	}
 }

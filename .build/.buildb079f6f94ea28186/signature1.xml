@@ -4,15 +4,15 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Dc2CNHzGF7v+w/4tgmSuN8iiHbvl/cC+n94DUpLICYY=</DigestValue>
+<DigestValue>Y+nhilS8sZSKawdqjYakK16loi0OMHL1/I+tavgmQ5k=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>BENJt4/sKx3Az9bLiE9z8VORIbgNAAc6f1HKtEhXxLM=</DigestValue>
+<DigestValue>c8oF7AeWaAU/mMuc5aGXPZA72/LVA3aIIQx61P2Zzrw=</DigestValue>
 </Reference>
 <Reference URI="css/style.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>mVyzTIt7toDjqJDyK8zFNfUxuVnC7msv17Oai/+NZdI=</DigestValue>
+<DigestValue>IZYGFw8SY0m4tt5e+D6xYVzCjKnxEfs5Jkyhw8UYCzM=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,15 +24,55 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>u22HpxnzD5R+IhaY9pGMghBx+hCrwtKly7r5GeCDsMk=</DigestValue>
+<DigestValue>Qctglgk3Ex+E+fYcQlwNl5txXvI/XqoMAAzfV0QPays=</DigestValue>
+</Reference>
+<Reference URI="js/class/Beer_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ZyHAAJSxhfUyugMF1RkaBN9dBu0AGgat5sb/ny53Jy0=</DigestValue>
+</Reference>
+<Reference URI="js/class/Clown_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>kfje2O8ms76hIVV5u442sWAeiWzlIbVV48LZm0ykX9c=</DigestValue>
+</Reference>
+<Reference URI="js/class/Fartsim_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ngny5F9ZfVmvIFtXGMV2g4p7l1+gxjx6xBZf8uzDrfk=</DigestValue>
+</Reference>
+<Reference URI="js/class/Light_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>zwiXaGMCj3cnZImxp7C7naoXTRpB/S16tVksZAqRtT8=</DigestValue>
+</Reference>
+<Reference URI="js/class/Meuh_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MV3C0BeMtv0DT4G9omOzjRLTIXYxifNebO+J6Qw8OUE=</DigestValue>
+</Reference>
+<Reference URI="js/class/Ninja_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2Ro28mIwbHl7377yJQD856nBfccCq67lmssIfU+ImJ0=</DigestValue>
 </Reference>
 <Reference URI="js/main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ti5P86hc/kiKWfGeBulFcSvwPoSBLzTKpk9qiGXqJUY=</DigestValue>
+<DigestValue>sN/sVccSsbQfluS8H9u3qLrbnn+KGbvQIqq2ufow9/Q=</DigestValue>
 </Reference>
 <Reference URI="js/runLoop.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>oTuS9rTN0tgzaiMDtOl4F/J+cGanNMnjmqpPtrzbWAo=</DigestValue>
+<DigestValue>ulws/wRNzOAYXDyjXJEFpHtQ3RpDjyB5xEmZ73bHUPo=</DigestValue>
+</Reference>
+<Reference URI="js/scenes/achiev_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>37FDM3qi9YmpgADpjTN82CtIs+VTr4iXg6MgqUGnmEI=</DigestValue>
+</Reference>
+<Reference URI="js/scenes/amazeme_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>MeNIfgSSvRcU4bn+vW+jNryZE6FOCfPB2eQMhvQH51M=</DigestValue>
+</Reference>
+<Reference URI="js/scenes/credits_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R07NXRV6L0nKt6h5CfKjPBdwepavck0QEtjVKuFD7gE=</DigestValue>
+</Reference>
+<Reference URI="js/scenes/menu_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8c943reDur9cdyD79/JYNkSkVAh+rxmGJQsiNMu75O0=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -43,9 +83,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-e6M/+muhQOmugD94M3NvdpVzivzJl/ZI9vYqWM8Ul/RuGKMOvGC2LsIscKYY2uzUdCiDlxE0wleg
-Vhk9KXtRAV1xqE9yaX2eot9LxYpWwFnoo95WwJJuw55JvtoaQljGTzwF1TGd9cX3jcswOs8C7xP5
-0VGsCPEo5FGM9DgRjAA=
+SXWmMenFc+ysQDJQyGLTq5W7KfhUyKlpOehxch9sBEaHHSR+O1xLe4wFcLX2Ja3kS0HXFMJkoCEr
+Yeobh/RYwmNUQ2IK9dFlRZviugIvwNhnpjuF57dpOvqFgvTz7N5prFeL93Fu+2aNQiCF20SYYnpL
+uv38G9vqVMgO0Eke6hg=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
