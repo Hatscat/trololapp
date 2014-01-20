@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Y+nhilS8sZSKawdqjYakK16loi0OMHL1/I+tavgmQ5k=</DigestValue>
+<DigestValue>LUHosESWyYX2NKrHsoKjaHIBQkU5RGwkcjvHZJ0saDo=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,11 +24,15 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Qctglgk3Ex+E+fYcQlwNl5txXvI/XqoMAAzfV0QPays=</DigestValue>
+<DigestValue>C77dhYYYR5FaktcMVwP717FFCLI+Pn8F5xSdpzSgwCY=</DigestValue>
 </Reference>
 <Reference URI="js/class/Beer_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>ZyHAAJSxhfUyugMF1RkaBN9dBu0AGgat5sb/ny53Jy0=</DigestValue>
+</Reference>
+<Reference URI="js/class/Button.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>2bKwLx+KPFyjcN8JSuM7mwB94kSCoJXUfCFk9Sgkzyc=</DigestValue>
 </Reference>
 <Reference URI="js/class/Clown_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -72,7 +76,7 @@
 </Reference>
 <Reference URI="js/scenes/menu_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>8c943reDur9cdyD79/JYNkSkVAh+rxmGJQsiNMu75O0=</DigestValue>
+<DigestValue>hum0pFONYQga4Q9DpGSjso+SMIS3Hmod6er1/bfTClY=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -83,9 +87,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-SXWmMenFc+ysQDJQyGLTq5W7KfhUyKlpOehxch9sBEaHHSR+O1xLe4wFcLX2Ja3kS0HXFMJkoCEr
-Yeobh/RYwmNUQ2IK9dFlRZviugIvwNhnpjuF57dpOvqFgvTz7N5prFeL93Fu+2aNQiCF20SYYnpL
-uv38G9vqVMgO0Eke6hg=
+iKj4gZ8UXcUEVfLGwUsc6Q2CeJEpcRmvpFwPrO/gd6wWHLyXENqfhOtOhS61edEOr3byVSLmXG2f
+n9EcBPKrdJ/h31GsD/pG7WaXj1SnKVE39qxKulvyukczqnognJvr8Z6bNYlE9sprKYtM+kk325cb
+3PLkKsGr8mPpuhw409M=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
