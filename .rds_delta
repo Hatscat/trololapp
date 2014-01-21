@@ -2,5 +2,6 @@
 #add
 #modify
 res/wgt/author-signature.xml
-res/wgt/js/class/Button.js
+res/wgt/js/scenes/achiev_scene.js
+res/wgt/js/scenes/menu_scene.js
 res/wgt/signature1.xml

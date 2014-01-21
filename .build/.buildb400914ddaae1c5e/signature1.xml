@@ -62,21 +62,21 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>ulws/wRNzOAYXDyjXJEFpHtQ3RpDjyB5xEmZ73bHUPo=</DigestValue>
 </Reference>
-<Reference URI="js/scenes/menu_scene.js">
+<Reference URI="js/class/Button.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>U1lRBnkA33xnZ3HOu2MGUEQaP7MhMLO5iv1SEU9QFdw=</DigestValue>
+<DigestValue>cPtE1O93riYzUuYyK4hJDW7ZYmsSkibbEvbyupPh0B0=</DigestValue>
 </Reference>
 <Reference URI="js/scenes/achiev_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ahyDyt8ks5C/UU/TzQdr9JeQo5eZKF55/fvAY04zy04=</DigestValue>
+<DigestValue>AxK9UQcePKZ+hqpiBZ7T8MfTZ0MILGlb+F046KvQEv0=</DigestValue>
 </Reference>
-<Reference URI="js/class/Button.js">
+<Reference URI="js/scenes/menu_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>C1UUj+0p1Xwl1xpnZ9tD/TED99Je/jIh2e1cwcB9vCc=</DigestValue>
+<DigestValue>KkUoYZYfPrcbJHOKXRZV80LAjj6mRWICh1N9sGsjCOs=</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>KNKxAndMiakmywSovg01K6plAUD5/RiUwIqM4meoGgk=</DigestValue>
+<DigestValue>DjHumXtSeM0/M3oHEIu9QYvTIEa6nRaRodCO7h/lbTI=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -87,9 +87,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-EmN4y6XWcP83F21yDvwYjV6FKsPu5OQSGHCF1HP99ONeOsv0VQoDqaw2LGWXjqjCvUqjXq/Z+9HU
-PcZpwTVe4OfZ8dDdBe/j37nGg5rUKvwCcPpS5CpNuc2HRX8uO6c3Hgc2mpcC3s6ym2N2C7rwL8EG
-XwrEWdlQWBNuz6CWgp8=
+VzsFJSIeW7CGtjvInic1ZaZWo5oHC1y5avKH2v/+/6Tx6ebVFZP2KDhSIY+xDUA7PtKgfNyNJTGM
+FANPICS+iKKnBbWerbe/L0iDe+ciKfq0WFbrG1EFXjjZCKIhHGJKDIqvcqDYb3daTC3vQXOESg5H
+kDcFPV2Hx9JmSezHqe8=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

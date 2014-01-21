@@ -37,7 +37,7 @@ Button.prototype.isClicked = function (all)
 	if (!!all.touch.id && all.touch.id == "end")
 	{
 		var r = this.all.isButtonClicked(xywh);
-		all.touch = {};
+		if (r)	all.touch = {};
 		return r;
 	}
 }
