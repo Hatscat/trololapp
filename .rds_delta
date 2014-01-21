@@ -1,7 +1,7 @@
 #delete
 #add
+res/wgt/js/scenes/exit_scene.js
 #modify
 res/wgt/author-signature.xml
-res/wgt/js/scenes/achiev_scene.js
-res/wgt/js/scenes/menu_scene.js
+res/wgt/index.html
 res/wgt/signature1.xml

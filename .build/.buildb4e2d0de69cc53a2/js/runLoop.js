@@ -39,16 +39,16 @@ function run (all, timestamp)
 	switch (all.activeScene)
 	{
 		case "menu":
-			menu_scene(all);
+			update_menu_scene(all);
 		break;
-		case "amazeme":
-			amazeme_scene(all);
-		break;
+		// case "amazeme": // juste un init, pas de "run()"
+		// 	update_amazeme_scene(all);
+		// break;
 		case "achiev":
-			achiev_scene(all);
+			update_achiev_scene(all);
 		break;
 		case "credits":
-			credits_scene(all);
+			update_credits_scene(all);
 		break;
 		case "exit":
 			tizen.application.getCurrentApplication().exit();
