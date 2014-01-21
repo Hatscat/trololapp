@@ -31,10 +31,13 @@ Button.prototype.fillText = function ()
 	this.all.context.globalAlpha = this.textAlpha;
 	this.all.context.fillText(this.text, this.x + this.text_offsetX, this.y + this.text_offsetY);
 }
-Button.prototype.isClicked = function ()
+Button.prototype.isClicked = function (all)
 {
 	var xywh = [this.x, this.y, this.w, this.h];
-	if (all.isButtonClicked(xywh))
-			return true;
-		return false;
+	if (!!all.touch.id && all.touch.id == "end")
+	{
+		var r = this.all.isButtonClicked(xywh);
+		all.touch = {};
+		return r;
+	}
 }

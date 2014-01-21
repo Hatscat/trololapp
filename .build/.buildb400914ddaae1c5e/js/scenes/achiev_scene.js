@@ -22,6 +22,7 @@ function achiev_scene (all)
 		
 		if (buttons[i].isClicked(all))
 		{
+			console.log(buttons[i].id)
 			all.activeScene = buttons[i].id;
 		}
 	}

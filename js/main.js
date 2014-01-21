@@ -26,15 +26,15 @@ function init ()
     //touch events handler
     all.canvas.addEventListener("touchstart", function (e) {
     	all.touch.id = "start";
-    	all.touch.event = e.changedTouches;
+    	all.touch.event = e.changedTouches[0];
     }, false);
     all.canvas.addEventListener("touchend", function (e) {
     	all.touch.id = "end";
-    	all.touch.event = e.changedTouches;
+    	all.touch.event = e.changedTouches[0];
     }, false);
     all.canvas.addEventListener("touchmove", function (e) {
     	all.touch.id = "move";
-    	all.touch.event = e.changedTouches;
+    	all.touch.event = e.changedTouches[0];
     }, false);
 
     // add eventListener for tizenhwkey
@@ -77,11 +77,15 @@ function init ()
     // fonction pour detecter un click sur un bouton (tableau)
     all.isButtonClicked = function (xywh)
 	{
-		if ((!!all.touch && all.touch.event.pageX >= xywh[0] && all.touch.event.pageX < xywh[0] + xywh[2])
+		if ((!!all.touch.id && all.touch.event.pageX >= xywh[0] && all.touch.event.pageX < xywh[0] + xywh[2])
 		&& (all.touch.event.pageY >= xywh[1] && all.touch.event.pageY < xywh[1] + xywh[3]))
+		{
 			return true;
+		}	
 		else
+		{
 			return false;
+		}
 	}
     
     all.loadImage(images_uri);

@@ -2,10 +2,6 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="author-signature.xml">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>LUHosESWyYX2NKrHsoKjaHIBQkU5RGwkcjvHZJ0saDo=</DigestValue>
-</Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>c8oF7AeWaAU/mMuc5aGXPZA72/LVA3aIIQx61P2Zzrw=</DigestValue>
@@ -30,10 +26,6 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>ZyHAAJSxhfUyugMF1RkaBN9dBu0AGgat5sb/ny53Jy0=</DigestValue>
 </Reference>
-<Reference URI="js/class/Button.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>2bKwLx+KPFyjcN8JSuM7mwB94kSCoJXUfCFk9Sgkzyc=</DigestValue>
-</Reference>
 <Reference URI="js/class/Clown_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>kfje2O8ms76hIVV5u442sWAeiWzlIbVV48LZm0ykX9c=</DigestValue>
@@ -54,18 +46,6 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>2Ro28mIwbHl7377yJQD856nBfccCq67lmssIfU+ImJ0=</DigestValue>
 </Reference>
-<Reference URI="js/main.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>sN/sVccSsbQfluS8H9u3qLrbnn+KGbvQIqq2ufow9/Q=</DigestValue>
-</Reference>
-<Reference URI="js/runLoop.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ulws/wRNzOAYXDyjXJEFpHtQ3RpDjyB5xEmZ73bHUPo=</DigestValue>
-</Reference>
-<Reference URI="js/scenes/achiev_scene.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>37FDM3qi9YmpgADpjTN82CtIs+VTr4iXg6MgqUGnmEI=</DigestValue>
-</Reference>
 <Reference URI="js/scenes/amazeme_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>MeNIfgSSvRcU4bn+vW+jNryZE6FOCfPB2eQMhvQH51M=</DigestValue>
@@ -74,9 +54,29 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>R07NXRV6L0nKt6h5CfKjPBdwepavck0QEtjVKuFD7gE=</DigestValue>
 </Reference>
+<Reference URI="js/main.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cyADoebH9llAcTSoMcJonGjUabNJDLL5rmmUkAogm/s=</DigestValue>
+</Reference>
+<Reference URI="js/runLoop.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ulws/wRNzOAYXDyjXJEFpHtQ3RpDjyB5xEmZ73bHUPo=</DigestValue>
+</Reference>
 <Reference URI="js/scenes/menu_scene.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>hum0pFONYQga4Q9DpGSjso+SMIS3Hmod6er1/bfTClY=</DigestValue>
+<DigestValue>U1lRBnkA33xnZ3HOu2MGUEQaP7MhMLO5iv1SEU9QFdw=</DigestValue>
+</Reference>
+<Reference URI="js/scenes/achiev_scene.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ahyDyt8ks5C/UU/TzQdr9JeQo5eZKF55/fvAY04zy04=</DigestValue>
+</Reference>
+<Reference URI="js/class/Button.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>C1UUj+0p1Xwl1xpnZ9tD/TED99Je/jIh2e1cwcB9vCc=</DigestValue>
+</Reference>
+<Reference URI="author-signature.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>KNKxAndMiakmywSovg01K6plAUD5/RiUwIqM4meoGgk=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -87,9 +87,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-iKj4gZ8UXcUEVfLGwUsc6Q2CeJEpcRmvpFwPrO/gd6wWHLyXENqfhOtOhS61edEOr3byVSLmXG2f
-n9EcBPKrdJ/h31GsD/pG7WaXj1SnKVE39qxKulvyukczqnognJvr8Z6bNYlE9sprKYtM+kk325cb
-3PLkKsGr8mPpuhw409M=
+EmN4y6XWcP83F21yDvwYjV6FKsPu5OQSGHCF1HP99ONeOsv0VQoDqaw2LGWXjqjCvUqjXq/Z+9HU
+PcZpwTVe4OfZ8dDdBe/j37nGg5rUKvwCcPpS5CpNuc2HRX8uO6c3Hgc2mpcC3s6ym2N2C7rwL8EG
+XwrEWdlQWBNuz6CWgp8=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
