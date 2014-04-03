@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/trololapp" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="EpxAhZpbgu.trololapp" package="EpxAhZpbgu" required_version="2.1"/>
+    <author email="luboudy@gmail.com">Lucien Boudy &amp; Maxime Lo Re</author>
+    <content src="index.html"/>
+    <description>Amazing app! It will supprize you ;)</description>
+    <icon src="icon.png"/>
+    <license href="http://opensource.org/licenses/MIT">MIT</license>
+    <name>trololapp</name>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
